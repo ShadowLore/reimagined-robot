@@ -1,0 +1,100 @@
+.form-container{
+ background-color: #FFFAFF;
+ text-align: center;
+ padding: 100px 80px;
+ border-radius: 10px;
+ top: 200px;
+ box-shadow: 0 0 25px -15px rgba(0,0,0,0.3);
+ position: relative;
+}
+.form-container:before,
+.form-container:after{
+ content: '';
+ background-color: #303036;
+ height: 50%;
+ width: 4px;
+ position: absolute;
+ left: 10px;
+ top: 10px;
+}
+.form-container:after{
+ top: auto;
+ bottom: 10px;
+ left: auto;
+ right: 10px;
+}
+.form-container .title{
+ color: #303036;
+ font-size: 25px;
+ font-weight: 700;
+ text-transform: capitalize;
+ margin: 0 0 15px;
+}
+.form-horizontal .form-group{ margin: 0 0 15px; }
+.form-horizontal .form-group:last-of-type{
+ text-align: left;
+ margin-bottom: 35px;
+}
+.form-horizontal .form-control{
+ color: #303036;
+ background: #FFFAFF;
+ font-size: 14px;
+ font-weight: 500;
+ letter-spacing: 1px;
+ height: 40px;
+ padding: 6px 12px;
+ border-radius: 5px;
+ border: 2px solid #F2F5F6;
+ box-shadow: none;
+}
+.form-horizontal .form-control:focus{
+ border-color: #303036;
+ box-shadow: none;
+}
+.form-horizontal .form-control::placeholder{
+ color: #e1e1e1;
+ font-size: 14px;
+ font-weight: 300;
+}
+.form-horizontal .form-group .check-label{
+ color: #555;
+ font-size: 12px;
+ font-weight: 400;
+ text-transform: none;
+ margin: -2.5px 0 0;
+ vertical-align: text-top;
+ display: inline-block;
+}
+.form-horizontal .checkbox:checked:before{ opacity: 1; }
+.form-horizontal .checkbox:not(:checked):before{ opacity: 0; }
+.form-horizontal .checkbox:focus{ outline: none; }
+.form-horizontal .btn{
+ color: #303036;
+ background-color: #FFFAFF;
+ font-size: 13px;
+ font-weight: 600;
+ letter-spacing: 0.5px;
+ text-transform: capitalize;
+ width: 130px;
+ padding: 11px;
+ margin: 0 10px 10px 0;
+ border: 2px solid #303036;
+ border-radius: 15px;
+ display: inline-block;
+ transition: all 0.3s ease 0s;
+}
+.form-horizontal .btn.signin{
+ color: #303036;
+ background-color: #FFFAFF;
+}
+.form-horizontal .btn:hover,
+.form-horizontal .btn:focus{
+ color: #303036;
+ background-color: #fff;
+ box-shadow: 0 0 5px #303036, 0 0 5px #303036 inset;
+}
+.form-horizontal .btn.signin:hover,
+.form-horizontal .btn.signin:focus{
+ text-shadow: 3px 3px rgba(0,0,0,0.3);
+ box-shadow: 0 0 5px #303036;
+}

@@ -1,0 +1,83 @@
+body{
+
+    background: #FFFAFF;
+}
+aside{
+    float: left;
+    background: #303036;
+    width: 19%;
+    padding: 3%;
+    height: 170vh;
+    color: #fff;
+    border: 3px solid grey;
+}
+
+aside h3{
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
+aside ul {list-style: none}
+aside ul li {
+    color: #fff;
+    display: block;
+    margin-top: 20px;
+    transition: transform .2s ease;
+
+}
+aside ul li:hover, aside ul a:hover {
+    color:  ;
+    transform: scale(1.05);
+}
+
+main .features{
+    font-weight: 700;
+    float: left;
+    color: black;
+    margin-top: 200px;
+    text-align: center;
+    width: 75%;
+}
+main .features h1 {font-size: 50px;}
+main .features p {max-width: 400px; margin: 20px auto;}
+
+main .container{
+    position: absolute;
+    left: 450px;
+
+}
+main .load{
+    font-weight: 700;
+}
+main .load h1{text-align: center;}
+main .load p{font-size: 20px;}
+.button1{position: absolute; top: 1450px;}
+.button2{position: absolute; left: 250px; top: 1450px;}
+
+main .container{
+    position: absolute;
+    left: 450px;
+
+}
+main .inference{
+    font-weight: 700;
+}
+main .inference h1{text-align: center;}
+main .inference p{font-size: 20px;}
+.button3{position: absolute; top: 1500px;}
+.button4{position: absolute; left: 250px; top: 1500px;}
+
+main .panel{
+    background-color: #303036;
+    width: 100%;
+    border: 3px solid grey;
+}
+.reg a{
+    color: #FFFAFF;
+    position: relative;
+    left: 1400px;
+    transition: transform .2s ease;
+}
+.reg a: hover{
+    transform: scale(1.05);
+}

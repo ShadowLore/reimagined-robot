@@ -1,0 +1,17 @@
+{% extends 'layout.html' %}
+
+{% block title %}Главная страница{% endblock %}
+
+{% block content %}
+
+{% include 'myapp/panel.html' %}
+<div class="features">
+    <h1>Главная страница</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad at consectetur consequatur dignissimos dolore dolores, eius est facere, inventore itaque magnam nobis praesentium quisquam sapiente sint temporibus vel velit.</p>
+    <form action="load" target="_blank">
+    <button class="btn" style="background-color: #303036; color: #FFFAFF;">Приступить к установке django</button>
+    </form>
+</div>
+
+
+{% endblock %}
